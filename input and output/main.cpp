@@ -9,15 +9,15 @@ using namespace std;
 
 int main()
 {
-	int angstromsPerMeter = pow(10,10);
-    std::cout << angstromsPerMeter;   
-    string text = " Vinny";
-    string text = "Johnny";
+    int angstromsPerMeter = pow(10, 10);
+    cout << "Angstroms per meter: " << angstromsPerMeter << "\n";
+    string text1 = " abracadabra";
+    string text2 = "Uvuvwevwevwe Onyetenyevwe Ugwemubwem Ossas";
 
-    std::cout << " Length of string: " << text << "\n";
-    
-    
-    double thoseShoesCost = 19.99; 
+    cout << "Length of string: " << text1.length() << "\n";
+    cout << "Length of string: " << text2.length() << "\n";
+
+    double thoseShoesCost = 19.99;
     double thosePantsCost = 2690.01;
 
     double clothesTotalCost = thoseShoesCost + thosePantsCost;
@@ -25,3 +25,4 @@ int main()
     cout << "Total cost is: $ " << clothesTotalCost << "\n";
 
     return 0;
+}
